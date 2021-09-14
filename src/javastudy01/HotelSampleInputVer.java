@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 5층 건물이고, 각 층은 7개 호실로 구성되어 있습니다.
  * 이 경우에 투숙객의 데이터가 다음과 같다면, 전체 인원 수와 각 층의 평균 인원수는 얼마인가요?
  * data>
- * 1층: 10, 5, 6, 7, 8, 9, 0
+ * 1층: 10, 5, 6, 7, 8, 9, 10 => 55 / 7 => 7.8
  * 2층: 1, 9, 7, 8, 5, 4, 3
  * 3층: 10, 20, 30, 40, 50, 60, 70
  * 4층: 3, 5, 8, 9, 12, 22, 55
@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class HotelSampleInputVer {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);//keyboard 데이터 입력
 		System.out.println("행을 입력하세요.(층)");
 		int floor = sc.nextInt();
 		System.out.println("열을 입력하세요.(호)");
