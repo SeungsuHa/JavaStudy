@@ -1,4 +1,4 @@
-package ArraySample01;
+package ArraySample1;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 문제> 3개의 데이터를 입력받아서 가장 작은 값을 구하여 출력하세요.
  *  - Scanner, BufferedReader, args[] 중에서 골라서 사용하세요.
  */
-public class Sample06_scn {
+public class Sample6 {
 
 	public static void main(String[] args) {
 		int mini;

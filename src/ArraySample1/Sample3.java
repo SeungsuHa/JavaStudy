@@ -1,4 +1,4 @@
-package ArraySample01;
+package ArraySample1;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
  *  점수:total, 평균:average
  *  int scores[] = new int[n];
  */
-public class Sample04 {
+public class Sample3 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

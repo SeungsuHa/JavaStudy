@@ -1,4 +1,4 @@
-package ArraySample01;
+package ArraySample1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,9 +11,9 @@ import java.util.Scanner;
  * 문제> 3개의 데이터를 입력받아서 가장 작은 값을 구하여 출력하세요.
  *  - Scanner, BufferedReader, args[] 중에서 골라서 사용하세요.
  */
-public class Sample06_args {
+public class Sample6_1 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NumberFormatException, IOException {
 		int mini;
 		int Min[] = new int[5];
 		
@@ -21,17 +21,18 @@ public class Sample06_args {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 				
 		System.out.println("1번째 숫자를 입력해 주세요.");
-		Min[0] = Integer.parseInt(args[0]);//12
+		Min[0] = Integer.parseInt(br.readLine());//12
 		
 		System.out.println("2번째 숫자를 입력해 주세요."); 
-		Min[1] = Integer.parseInt(args[1]);
+		String x = br.readLine();//7
+		Min[1] = Integer.parseInt(x);
 		
 		System.out.println("3번째 숫자를 입력해 주세요.");
-		Min[2] = Integer.parseInt(args[2]);//54
+		Min[2] = Integer.parseInt(br.readLine());//54
 		System.out.println("4번째 숫자를 입력해 주세요.");
-		Min[3] = Integer.parseInt(args[3]);//17
+		Min[3] = Integer.parseInt(br.readLine());//17
 		System.out.println("5번째 숫자를 입력해 주세요.");
-		Min[4] = Integer.parseInt(args[4]);//540
+		Min[4] = Integer.parseInt(br.readLine());//540
 		
 		mini = Min[0];// mini = 12
 		

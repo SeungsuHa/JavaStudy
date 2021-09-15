@@ -1,4 +1,4 @@
-package ArraySample01;
+package ArraySample1;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -12,7 +12,7 @@ import java.util.Scanner;
  *  - sample> 2 17 29 31 35 44
  *  
  */
-public class Sample05 {
+public class Sample5 {
 
 	public static void main(String[] args) {
 		int lotto[] = new int[6];

@@ -1,8 +1,8 @@
-package ArraySample01;
+package ArraySample1;
 
 import java.util.Random;
 
-public class Sample01 {
+public class Sample1 {
 
 /*
  * 배열 : 같은 성질의 숫자나 문자를 나열한 것 - 데이터의 갯수가 아주 많은 경우 사용 - C에서 구조체가 자바에서는 class 형태로
