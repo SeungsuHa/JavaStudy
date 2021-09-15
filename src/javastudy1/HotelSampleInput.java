@@ -1,4 +1,4 @@
-package javastudy01;
+package javastudy1;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ import java.util.Scanner;
  * 4층: 3, 5, 8, 9, 12, 22, 55
  * 5층: 6, 3, 8, 2, 5, 4, 5
  */
-public class HotelSampleInputVer {
+public class HotelSampleInput {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);//keyboard 데이터 입력

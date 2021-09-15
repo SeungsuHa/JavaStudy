@@ -1,4 +1,4 @@
-package javastudy01;
+package javastudy1;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ import java.util.Scanner;
  * 
  */
 
-public class HotelSampleInputVerAnother {
+public class HotelSampleInput2 {
 //filed area 
 // global variable(C) = class variable(Java)		
 // int totalsum; 자동초기화 개념 => 0

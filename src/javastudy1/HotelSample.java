@@ -1,4 +1,4 @@
-package javastudy01;
+package javastudy1;
 
 /*
  * kosmo hotel을 새롭게 증축을 합니다.
